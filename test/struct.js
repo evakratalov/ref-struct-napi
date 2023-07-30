@@ -1,6 +1,6 @@
 
 var assert = require('assert')
-  , ref = require('ref-napi')
+  , ref = require('@breush/ref-napi')
   , ArrayType = require('ref-array-napi')
   , Struct = require('../')
   , bindings = require('bindings')({ module_root: __dirname, bindings: 'struct_tests' })
